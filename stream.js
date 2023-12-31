@@ -1,8 +1,8 @@
-// Create a big file and put 10000 lines into it with fs module and stream module to show the performance difference between them 
-// const { writeFileSync } = require('fs')
-// for (let i = 0; i < 10000; i++) {
-//   writeFileSync('./content/big.txt', `hello world ${i}\n`, { flag: 'a' })
-// }
+Create a big file and put 10000 lines into it with fs module and stream module to show the performance difference between them 
+const { writeFileSync } = require('fs')
+for (let i = 0; i < 10000; i++) {
+  writeFileSync('./content/big.txt', `hello world ${i}\n`, { flag: 'a' })
+}
 
 
 
